@@ -1,16 +1,50 @@
-# weather_application
+☁️ Weather App — Real-Time Forecasts at Your Fingertips 🌦️
 
-A new Flutter project.
+Weather App is a sleek Flutter application that provides accurate, up-to-the-minute weather data by integrating the OpenWeather API.
 
-## Getting Started
+🌟 Project Highlights
 
-This project is a starting point for a Flutter application.
+🌤️ Current Weather & Forecasts
 
-A few resources to get you started if this is your first Flutter project:
+View real-time temperature, humidity, wind speed, and conditions.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+7-day and 24-hour forecast charts.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Dynamic weather icons and background animations.
+
+📍 Location Search & Geolocation
+
+Search by city name.
+
+Use device GPS to fetch local weather instantly.
+
+
+🎨 Theming & UI
+
+Light & Dark modes with Riverpod-managed state.
+
+Responsive layout for phones and tablets.
+
+Smooth transitions and weather-based background animations.
+
+🛠️ API Integration
+
+Built on the OpenWeather API for current forecasts.
+
+Efficient HTTP handling with http package.
+
+🧰 Tech Stack
+
+    Category              Tools & Libraries
+
+    Framework             Flutter, Dart
+
+    State Management      Riverpod
+
+    HTTP & Networking     HTTP package
+
+    Storage & Caching     Loacal storage
+
+    Theming & UI          riverpod_themes, animated_background
+
+    Utilities             intl (date formatting), geolocator
